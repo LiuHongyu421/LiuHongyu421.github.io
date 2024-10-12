@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /news/index.html
-title: Blogs
+title: News
 ---
 
 
