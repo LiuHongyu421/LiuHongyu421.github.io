@@ -1,12 +1,12 @@
-<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="160" height="160"></a>
+<img src="{{ site.url }}/images/{{ site.owner.avatar }}"style="text-align: center;" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="160" height="160"></a>
 
 <!-- <h4>{{ site.owner.name }}</h4> -->
 
 <p>{{ site.owner.bio }}</p>
 
-{% if site.owner.note %}<p style="text-indent:0;margin-top:3em;text-align: center;font-family: Arial"></i> Dong Wang,王东</a></p>{% endif %}
+{% if site.owner.note %}<p style="text-indent:0;margin-top:3em;text-align: center;font-family: Arial;"> Dong Wang,王东</a></p>{% endif %}
 
-{% if site.owner.note %}<p style="text-indent:0;"></i> Prof.@School of mechanical engineering,ShangHai Jiao Tong University</a></p>{% endif %}
+{% if site.owner.note %}<p style="text-indent:0;">Prof.@School of mechanical engineering,ShangHai Jiao Tong University</a></p>{% endif %}
 
 {% if site.owner.email %}<p style="text-indent:0;margin-top:1em;"><a href="mailto:{{ site.owner.email }}" target="_blank"><i class="icon-mail"></i> Email:<br>wang_dong@sjtu.edu.cn</a></p>{% endif %}
 
