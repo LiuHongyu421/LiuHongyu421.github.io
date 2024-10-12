@@ -44,11 +44,11 @@ links:
   - title: Publications
     url: /publications/
   - title: People
-    url: /hobbies/
+    url: /people/
   - title: News
-    url: /blogs/
+    url: /news/
   - title: Contact Us
-    url: /teams/
+    url: /contact/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: China/Beijing
